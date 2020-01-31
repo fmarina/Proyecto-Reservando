@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+}
+
+html, body {
+  height: 100%;
+}
+
+footer {
+  display: block;
+}
+
+h1 {
+  font-family: 'Pacifico';
+  color: #aa0024;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #272727;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.nombre-puntuacion-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.informacion-container{
+  display: flex;
+  align-items: center;
+}
+
+select{
+  width: 24%;
+  height: 46px;
+  margin-top: 22px;
+}
+
+.buscar{
+  width: 16%;
+  height: 46px;
+  margin-top: 22px;
+  background-color: #ffa629;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.contenedor-restaurantes {
+  width: 100%;
+  max-width: 960px;
+  height: 100vh;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.alerta{
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  color: #aa0024;
+}
+
+.contenedor-filtros {
+  width: 100%;
+  max-width: 960px;
+  height: 90px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #e1e3e4;
+  margin-bottom: 25px;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flex-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  background-color: white;
+  width: calc(33.33% - 16px);
+  height: 355px;
+  margin-bottom: 24px;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imagen{
+  width: 100%;
+  height: 55%;
+  object-fit: cover;
+}
+
+.icon{
+  width: 5%;
+  margin-bottom: -25px;
+}
+
+.icon-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.ubicacion{
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  color:grey;
+  margin-left: 5px;
+  margin-right: 15px;
+  color: #aa0024;
+}
+
+.reserva{
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  color:grey;
+}
+
+.rubro{
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  color:grey;
+  margin-left: 5px;
+  color: #aa0024;
+}
+
+.ubicacion-container{
+  margin-top: 16px;
+}
+
+select > .placeholder {
+  display: none;
+}
+
+.horarios-container{
+  font-size: 14px;
+}
+
+select{
+  font-weight: 500;
+  text-indent: 10%;
+  font-size: 13px;
+}
+
+.horario{
+  background-color: #ffa629;
+  color: white;
+  padding: 1px 10px;
+  margin-right: 5px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.horario:hover{
+  background-color: #aa0024; 
+}
+
+.buscar:hover{
+  background-color: #aa0024; 
+}
+
+.puntuacion:hover{
+  background-color: #349834; 
+}
+
+.informacion{
+  padding: 10px;
+}
+
+.reservas{
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.nombre-informacion-container{
+  width: 85%;
+  color: #aa0024;
+}
+
+i{
+  color: #aa0024;
+}
+
+.puntuacion-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.puntuacion{
+  background-color: #4dc14d;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  height: 30px;
+  width: 40px;
+}
+
+@media(max-width: 991px) {
+  .container {
+    padding: 0 24px;
+  }
+  .flex-item {
+    width: calc(50% - 12px);
+  }
+}
+
+@media(max-width: 767px) {
+  .container {
+    padding: 0 16px;
+  }
+  .flex-item {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}

@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <link href="https://unpkg.com/mocha@5.2.0/mocha.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="https://unpkg.com/chai/chai.js"></script>
+    <script src="https://unpkg.com/mocha@5.2.0/mocha.js"></script>
+    <script>mocha.setup('bdd')</script>
+    <script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../js/restaurant.js"></script>
+    <script type="text/javascript" src="../js/listado.js"></script>
+    <script type="text/javascript" src="../js/aplicacion.js"></script>
+    <script type="text/javascript" src="../js/reserva.js"></script>    
+    <script type="text/javascript" src="../js/tests.js"></script>
+    <script>
+    window.onload = function() {
+    mocha.run()
+    };
+    </script>
+  </body>
+</html>
